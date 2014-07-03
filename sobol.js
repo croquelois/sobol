@@ -56,7 +56,7 @@ SobolSequenceGenerator.prototype.nextVector = function(){
   return v;
 }
 
-exports.SobolSequenceGenerator = SobolSequenceGenerator;
+module.exports = SobolSequenceGenerator;
 
 function test(){
   var dim = process.argv[2] || 25;
